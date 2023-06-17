@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #000000 16.62%, #071a53 85.61%);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho-menu-item {
+  font-family: 'VT323', monospace;
+  color: #888ab4;
+  font-weight: 400;
+  font-size: 18px
+}
+
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #888ab4;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: #888ab4;
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-family: 'VT323', monospace;
+  font-weight: 400;
+  font-size: 24px;
+  color: #888ab4;
+}
+
+.conteudo-principal-imagem {
+  border-radius: 20%;
+  height: 430px;
+}
+
+.rodape {
+  text-align: center;
+  padding: 32px;
+  border-top: 0.4px solid;
+  color: #888ab4;
+}
